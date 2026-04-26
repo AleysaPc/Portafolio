@@ -1,0 +1,80 @@
+---
+const user = {
+  nombre: "Juan Pérez",
+  email: "juan@correo.com"
+};
+import "../../styles/global.css";
+---
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Demo Sistema</title>
+  </head>
+
+  <body class="bg-gray-100">
+
+    <div class="flex min-h-screen">
+
+      <!-- SIDEBAR -->
+      <aside class="w-64 bg-white shadow flex flex-col">
+
+        <div class="h-16 flex items-center justify-center bg-red-700 text-white font-bold">
+          FDLP
+        </div>
+
+        <div class="p-4 text-center bg-teal-700 text-white">
+          <div class="w-24 h-24 mx-auto rounded-full bg-white flex items-center justify-center text-gray-400 text-4xl mb-3">
+            👤
+          </div>
+          <p>{user.nombre}</p>
+          <p class="text-sm">{user.email}</p>
+        </div>
+
+        <nav class="flex-1 p-4 space-y-2">
+          <div class="p-2 hover:bg-gray-200 rounded">Dashboard</div>
+          <div class="p-2 hover:bg-gray-200 rounded">Usuarios</div>
+          <div class="p-2 hover:bg-gray-200 rounded">Reportes</div>
+        </nav>
+
+      </aside>
+
+      <!-- CONTENIDO -->
+      <div class="flex flex-col flex-1">
+
+        <!-- NAVBAR -->
+        <header class="h-16 bg-green-700 text-white flex items-center justify-between px-4 shadow">
+
+          <button class="hover:bg-red-600 p-2 rounded">
+            ☰
+          </button>
+
+          <h1 class="font-semibold">
+            Sistema de Gestión de Correspondencia
+          </h1>
+
+          <div class="flex gap-4 items-center">
+            🔔
+            👤
+            🖨️
+          </div>
+
+        </header>
+
+        <!-- MAIN -->
+        <main class="flex-1 flex items-center justify-center p-6">
+
+          <div class="bg-white rounded-lg shadow p-6 w-full max-w-4xl text-center">
+            <img src="/Fondo2.png" class="mx-auto max-w-md opacity-90" />
+            <p class="mt-4 text-gray-600">
+              Vista demostrativa del sistema (modo estático para portafolio)
+            </p>
+          </div>
+
+        </main>
+
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,269 @@
+---
+import "../styles/global.css";
+import "aos/dist/aos.css";
+---
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Alejandra Parraga Cruz | Portafolio</title>
+  </head>
+
+  <body class="bg-[#0B0F19] text-gray-100 antialiased">
+    <!-- HEADER -->
+    <header
+      class="fixed top-0 left-0 w-full z-50 backdrop-blur-lg bg-[#0B0F19]/80 border-b border-gray-800"
+    >
+      <div
+        class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <div class="flex items-center gap-3">
+          <div
+            class="w-9 h-9 rounded-lg bg-linear-to-br from-blue-500 to-blue-700 flex items-center justify-center font-bold"
+          >
+            AP
+          </div>
+          <span class="font-medium">Alejandra Parraga Cruz</span>
+        </div>
+
+        <nav class="hidden md:flex items-center gap-8 text-sm text-gray-300">
+          <a href="#proyectos" class="hover:text-white transition">Proyectos</a>
+          <a href="#contacto" class="hover:text-white transition">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section
+      data-aos="fade-up"
+      class="pt-32 text-center py-28 px-6 max-w-4xl mx-auto relative"
+    >
+      <!-- Glow -->
+      <div class="absolute inset-0 -z-10 blur-3xl opacity-20 bg-blue-500"></div>
+
+      <p class="text-sm text-gray-400 mb-3 tracking-widest uppercase">
+        Alejandra Parraga Cruz
+      </p>
+
+      <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
+        Desarrollo sistemas y páginas web
+        <span class="text-blue-400">que ayudan a crecer tu negocio</span>
+      </h1>
+
+      <p class="text-lg text-gray-400 mb-8">
+        Automatizo procesos, mejoro tu presencia online y creo herramientas
+        digitales que generan resultados reales.
+      </p>
+
+      <div class="flex justify-center gap-4">
+        <a
+          href="#proyectos"
+          class="bg-blue-600 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-blue-700 transition"
+        >
+          Ver cómo trabajo
+        </a>
+
+        <a
+          href="#contacto"
+          class="border border-gray-600 px-6 py-3 rounded-xl hover:bg-gray-800 transition"
+        >
+          Hablar conmigo
+        </a>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="py-24 px-6 max-w-6xl mx-auto">
+      <h2 data-aos="fade-up" class="text-3xl font-bold text-center mb-16">
+        Proyectos
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-10">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="100"
+          class="bg-[#1F2937] border border-gray-700 rounded-2xl p-6 hover:border-blue-500 hover:shadow-blue-500/10 hover:shadow-2xl transition duration-300"
+        >
+          <div class="h-40 bg-gray-800 rounded-lg mb-5"></div>
+          <h3 class="text-xl font-semibold mb-2">Sistema de ventas</h3>
+          <p class="text-gray-400 mb-4">
+            Sistema que permite controlar ventas e inventario en tiempo real,
+            ayudando a reducir errores y mejorar la gestión del negocio.
+          </p>
+          <div class="flex gap-4 text-sm">
+            <a href="/demo/sistema-ventas" class="text-blue-400 hover:underline"
+              >Demo</a
+            >
+            <a href="#" class="text-gray-400 hover:underline">Código</a>
+          </div>
+        </div>
+
+        <div
+          data-aos="fade-up"
+          data-aos-delay="200"
+          class="bg-[#1F2937] border border-gray-700 rounded-2xl p-6 hover:border-blue-500 hover:shadow-blue-500/10 hover:shadow-2xl transition duration-300"
+        >
+          <div class="h-40 bg-gray-800 rounded-lg mb-5"></div>
+          <h3 class="text-xl font-semibold mb-2">Sistema de reservas</h3>
+          <p class="text-gray-400 mb-4">
+            Plataforma de reservas online que facilita la gestión de citas y
+            mejora la experiencia del cliente.
+          </p>
+          <div class="flex gap-4 text-sm">
+            <a href="#" class="text-blue-400 hover:underline">Demo</a>
+            <a href="#" class="text-gray-400 hover:underline">Código</a>
+          </div>
+        </div>
+
+        <div
+          data-aos="fade-up"
+          data-aos-delay="300"
+          class="bg-[#1F2937] border border-gray-700 rounded-2xl p-6 hover:border-blue-500 hover:shadow-blue-500/10 hover:shadow-2xl transition duration-300"
+        >
+          <div class="h-40 bg-gray-800 rounded-lg mb-5"></div>
+          <h3 class="text-xl font-semibold mb-2">Sistema de correspondencia</h3>
+          <p class="text-gray-400 mb-4">
+            Sistema que permite gestionar la correspondencia de manera eficiente y segura.
+          </p>
+          <div class="flex gap-4 text-sm">
+            <a href="/demo/sistema-correspondencia" class="text-blue-400 hover:underline"
+              >Demo</a>
+            <a href="#" class="text-gray-400 hover:underline">Código</a>
+          </div>
+        </div>
+      </div>
+      <div class="h-10"></div>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="100"
+          class="bg-[#1F2937] border border-gray-700 rounded-2xl p-6 hover:border-blue-500 hover:shadow-blue-500/10 hover:shadow-2xl transition duration-300"
+        >
+          <div class="h-40 bg-gray-800 rounded-lg mb-5"></div>
+          <h3 class="text-xl font-semibold mb-2">Sistema de ventas</h3>
+          <p class="text-gray-400 mb-4">
+            Sistema que permite controlar ventas e inventario en tiempo real,
+            ayudando a reducir errores y mejorar la gestión del negocio.
+          </p>
+          <div class="flex gap-4 text-sm">
+            <a href="/demo/sistema-ventas" class="text-blue-400 hover:underline"
+              >Demo</a
+            >
+            <a href="#" class="text-gray-400 hover:underline">Código</a>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-delay="200"
+          class="bg-[#1F2937] border border-gray-700 rounded-2xl p-6 hover:border-blue-500 hover:shadow-blue-500/10 hover:shadow-2xl transition duration-300"
+        >
+          <div class="h-40 bg-gray-800 rounded-lg mb-5"></div>
+          <h3 class="text-xl font-semibold mb-2">Sistema de reservas</h3>
+          <p class="text-gray-400 mb-4">
+            Plataforma de reservas online que facilita la gestión de citas y
+            mejora la experiencia del cliente.
+          </p>
+          <div class="flex gap-4 text-sm">
+            <a href="#" class="text-blue-400 hover:underline">Demo</a>
+            <a href="#" class="text-gray-400 hover:underline">Código</a>
+          </div>
+        </div>
+
+        <div
+          data-aos="fade-up"
+          data-aos-delay="300"
+          class="bg-[#1F2937] border border-gray-700 rounded-2xl p-6 hover:border-blue-500 hover:shadow-blue-500/10 hover:shadow-2xl transition duration-300"
+        >
+          <div class="h-40 bg-gray-800 rounded-lg mb-5"></div>
+          <h3 class="text-xl font-semibold mb-2">Página empresarial</h3>
+          <p class="text-gray-400 mb-4">
+            Sitio web moderno y optimizado para captar clientes y mejorar la
+            presencia online.
+          </p>
+          <div class="flex gap-4 text-sm">
+            <a href="#" class="text-blue-400 hover:underline">Demo</a>
+            <a href="#" class="text-gray-400 hover:underline">Código</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section data-aos="fade-up" class="py-24 px-6 bg-[#0F172A]">
+      <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-3xl font-bold mb-6">Sobre mí</h2>
+
+          <p class="text-gray-400 mb-4 leading-relaxed">
+            Soy Alejandra Parraga Cruz, desarrolladora enfocada en crear sistemas y
+            páginas web para negocios.
+          </p>
+
+          <p class="text-gray-400 leading-relaxed">
+            Me especializo en soluciones prácticas que automatizan procesos y
+            ayudan a mejorar resultados.
+          </p>
+        </div>
+
+        <div class="flex justify-center">
+          <div
+            class="w-40 h-40 rounded-full bg-linear-to-br from-blue-500 to-blue-700 flex items-center justify-center text-3xl font-bold shadow-xl"
+          >
+            AP
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section data-aos="fade-up" class="py-24 px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10">Habilidades</h2>
+
+      <div class="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
+        <span class="bg-gray-800 px-5 py-2 rounded-full text-sm"
+          >Desarrollo de sistemas</span
+        >
+        <span class="bg-gray-800 px-5 py-2 rounded-full text-sm"
+          >Automatización de procesos</span
+        >
+        <span class="bg-gray-800 px-5 py-2 rounded-full text-sm"
+          >Desarrollo web moderno</span
+        >
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section
+      data-aos="fade-up"
+      id="contacto"
+      class="py-24 px-6 text-center bg-[#020617]"
+    >
+      <h2 class="text-3xl font-bold mb-4">
+        ¿Quieres mejorar tu negocio con tecnología?
+      </h2>
+
+      <p class="text-gray-400 mb-8">
+        Escríbeme y te ayudo a crear una solución adaptada a lo que necesitas.
+      </p>
+
+      <a
+        href="https://wa.me/591XXXXXXXX"
+        class="bg-blue-600 px-6 py-3 rounded-xl hover:bg-blue-700 transition shadow-lg"
+      >
+        Enviar mensaje por WhatsApp
+      </a>
+    </section>
+
+    <!-- AOS INIT -->
+    <script>
+      import("aos").then((AOS) => {
+        AOS.default.init({
+          duration: 800,
+          once: true,
+          easing: "ease-out-cubic",
+        });
+      });
+    </script>
+  </body>
+</html>
