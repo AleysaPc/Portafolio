@@ -1,0 +1,191 @@
+---
+import "../../styles/global.css";
+---
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOR YOU - Tienda de Mochilas</title>
+  </head>
+  <body class="bg-gray-50">
+    
+    <!-- Banner Principal -->
+    <div class="w-full bg-cover bg-center h-20 flex items-center justify-center" 
+         style="background-image: url('/img/banner.jpg')">
+      <h2 class="text-white text-2xl font-bold">FOR YOU</h2>
+    </div>
+
+    <!-- Carrusel Superior -->
+    <div class="max-w-7xl mx-auto px-4 py-6">
+      <div class="relative overflow-hidden rounded-lg">
+        <div class="flex transition-transform duration-500 ease-in-out">
+          <img src="/img/banner1.jpg" class="w-full h-64 object-cover" alt="Banner 1" />
+          <img src="/img/banner2.jpg" class="w-full h-64 object-cover" alt="Banner 2" />
+          <img src="/img/banner3.jpg" class="w-full h-64 object-cover" alt="Banner 3" />
+          <img src="/img/banner4.jpg" class="w-full h-64 object-cover" alt="Banner 4" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección de Tarjetas Principales -->
+    <div class="max-w-7xl mx-auto px-4 py-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Tarjeta Ofertas -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+          <img src="/img/oferta.jpg" class="w-full h-48 object-cover" alt="Ofertas" />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-center">Ofertas</h3>
+          </div>
+        </div>
+
+        <!-- Tarjeta Tus Compras -->
+        <a href="#" class="block text-decoration-none">
+          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+            <img src="/img/carrito.jpg" class="w-full h-48 object-cover" alt="Tus Compras" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold text-center">Tus Compras</h3>
+            </div>
+          </div>
+        </a>
+
+        <!-- Tarjeta Opiniones -->
+        <a href="#" class="block text-decoration-none">
+          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+            <img src="/img/opinion.JPG" class="w-full h-48 object-cover" alt="Opiniones" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold text-center">Déjanos tu Opinión</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Galería de Mochilas (Arriba) -->
+    <div class="max-w-7xl mx-auto px-4 py-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="/img/mochila1.jpg" class="w-full h-48 object-cover" alt="Mochila 1" />
+          <div class="p-4 h-24">
+            <h5 class="font-semibold mb-2">Mochila Adventure</h5>
+            <p class="text-gray-600 text-sm">Perfecta para tus excursiones</p>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="/img/mochila7.jpg" class="w-full h-48 object-cover" alt="Mochila 2" />
+          <div class="p-4 h-24">
+            <h5 class="font-semibold mb-2">Mochila Urban</h5>
+            <p class="text-gray-600 text-sm">Estilo y comodidad para la ciudad</p>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="/img/mochila3.jpg" class="w-full h-48 object-cover" alt="Mochila 3" />
+          <div class="p-4 h-24">
+            <h5 class="font-semibold mb-2">Mochila Sport</h5>
+            <p class="text-gray-600 text-sm">Ideal para actividades deportivas</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección Central -->
+    <div class="max-w-7xl mx-auto px-4 py-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <div class="md:flex">
+            <div class="md:w-1/3">
+              <img src="/img/mochila8.jpg" class="w-full h-48 md:h-full object-cover" alt="Mochila 8" />
+            </div>
+            <div class="md:w-2/3 p-4">
+              <h5 class="font-semibold mb-2">Mochila Premium</h5>
+              <p class="text-gray-600 text-sm mb-2">Calidad superior con materiales resistentes</p>
+              <p class="text-xs text-gray-500">Actualizado hace 3 minutos</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <div class="md:flex">
+            <div class="md:w-1/3">
+              <img src="/img/mochila8.jpg" class="w-full h-48 md:h-full object-cover" alt="Mochila 8" />
+            </div>
+            <div class="md:w-2/3 p-4">
+              <h5 class="font-semibold mb-2">Mochila Executive</h5>
+              <p class="text-gray-600 text-sm mb-2">Diseño elegante para profesionales</p>
+              <p class="text-xs text-gray-500">Actualizado hace 3 minutos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Galería de Mochilas (Abajo) -->
+    <div class="max-w-7xl mx-auto px-4 py-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="/img/mochila5.jpg" class="w-full h-48 object-cover" alt="Mochila 5" />
+          <div class="p-4 h-24">
+            <h5 class="font-semibold mb-2">Mochila Travel</h5>
+            <p class="text-gray-600 text-sm">Perfecta para viajes largos</p>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="/img/mochila6.jpg" class="w-full h-48 object-cover" alt="Mochila 6" />
+          <div class="p-4 h-24">
+            <h5 class="font-semibold mb-2">Mochila Student</h5>
+            <p class="text-gray-600 text-sm">Espaciosa y resistente</p>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="/img/mochila2.jpg" class="w-full h-48 object-cover" alt="Mochila 2" />
+          <div class="p-4 h-24">
+            <h5 class="font-semibold mb-2">Mochila Casual</h5>
+            <p class="text-gray-600 text-sm">Estilo diario versátil</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección Quiénes Somos -->
+    <div class="max-w-7xl mx-auto px-4 py-6">
+      <div class="bg-white rounded-lg shadow-md overflow-hidden max-w-4xl mx-auto">
+        <div class="md:flex">
+          <div class="md:w-1/3">
+            <img src="/img/descripcion.jpg" class="w-full h-64 md:h-full object-cover" alt="Descripción" />
+          </div>
+          <div class="md:w-2/3 p-6">
+            <h5 class="text-xl font-bold mb-4">¿Quiénes Somos?</h5>
+            <section class="space-y-4">
+              <p class="text-gray-700 text-justify leading-relaxed">
+                Somos una tienda dedicada a ofrecer la mejor selección de mochilas en Tarija, Bolivia. 
+                Nuestra pasión por la aventura y el viaje nos impulsa a proporcionar a nuestros clientes 
+                mochilas de alta calidad que sean cómodas, duraderas y funcionales. Desde mochilas para 
+                senderismo y camping hasta mochilas urbanas elegantes, tenemos una amplia gama de opciones 
+                para satisfacer las necesidades de nuestros clientes.
+              </p>
+              <p class="text-gray-700 text-justify leading-relaxed">
+                En nuestra tienda online, nos enorgullece no solo ofrecer productos excepcionales, sino 
+                también brindar un excelente servicio al cliente. Nuestro equipo está aquí para ayudarte a 
+                encontrar la mochila perfecta para tu próximo viaje o aventura al aire libre. ¡Explora nuestro 
+                catálogo y únete a nuestra comunidad de amantes de las mochilas en Tarija!
+              </p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Redes Sociales -->
+    <div class="bg-gray-100 py-4">
+      <div class="max-w-7xl mx-auto px-4">
+        <img src="/img/redes.png" alt="Redes Sociales" class="h-12 w-auto float-right" />
+      </div>
+    </div>
+
+  </body>
+</html>

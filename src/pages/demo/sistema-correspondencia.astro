@@ -32,9 +32,85 @@ import "../../styles/global.css";
         </div>
 
         <nav class="flex-1 p-4 space-y-2">
-          <div class="p-2 hover:bg-gray-200 rounded">Dashboard</div>
-          <div class="p-2 hover:bg-gray-200 rounded">Usuarios</div>
-          <div class="p-2 hover:bg-gray-200 rounded">Reportes</div>
+          <div class="relative group">
+            <div class="p-2 hover:bg-gray-200 rounded cursor-pointer flex items-center justify-between">
+              Nuevo registro
+              <span class="text-xs">▼</span>
+            </div>
+            <div class="absolute left-0 top-full mt-1 w-full bg-white shadow-lg rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-10">
+              <div class="py-1">
+                <div class="px-4 py-2 hover:bg-gray-100">Recibido</div>
+                <div class="px-4 py-2 hover:bg-gray-100">Enviado</div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <div class="p-2 hover:bg-gray-200 rounded cursor-pointer flex items-center justify-between">
+              Crear Documento
+              <span class="text-xs">▼</span>
+            </div>
+            <div class="absolute left-0 top-full mt-1 w-full bg-white shadow-lg rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-10">
+              <div class="py-1">
+                <div class="px-4 py-2 hover:bg-gray-100">Nuevo</div>
+                <div class="px-4 py-2 hover:bg-gray-100">Interno</div>
+                <div class="px-4 py-2 hover:bg-gray-100">Externo</div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <div class="p-2 hover:bg-gray-200 rounded cursor-pointer flex items-center justify-between">
+              Registros Oficiales
+              <span class="text-xs">▼</span>
+            </div>
+            <div class="absolute left-0 top-full mt-1 w-full bg-white shadow-lg rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-10">
+              <div class="py-1">
+                <div class="px-4 py-2 hover:bg-gray-100">Recibidos</div>
+                <div class="px-4 py-2 hover:bg-gray-100">Enviados Externos</div>
+                <div class="px-4 py-2 hover:bg-gray-100">Enviados Internos</div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <div class="p-2 hover:bg-gray-200 rounded cursor-pointer flex items-center justify-between">
+              Contactos
+              <span class="text-xs">▼</span>
+            </div>
+            <div class="absolute left-0 top-full mt-1 w-full bg-white shadow-lg rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-10">
+              <div class="py-1">
+                <div class="px-4 py-2 hover:bg-gray-100">Lista de Contactos</div>
+                <div class="px-4 py-2 hover:bg-gray-100">Agregar Contacto</div>
+                <div class="px-4 py-2 hover:bg-gray-100">Lista de Instituciones</div>
+                <div class="px-4 py-2 hover:bg-gray-100">Agregar Institución</div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <div class="p-2 hover:bg-gray-200 rounded cursor-pointer flex items-center justify-between">
+              Contactos
+              <span class="text-xs">▼</span>
+            </div>
+            <div class="absolute left-0 top-full mt-1 w-full bg-white shadow-lg rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-10">
+              <div class="py-1">
+                <div class="px-4 py-2 hover:bg-gray-100">Lista de Contactos</div>
+                <div class="px-4 py-2 hover:bg-gray-100">Agregar Contacto</div>
+                <div class="px-4 py-2 hover:bg-gray-100">Lista de Instituciones</div>
+                <div class="px-4 py-2 hover:bg-gray-100">Agregar Institución</div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <div class="p-2 hover:bg-gray-200 rounded cursor-pointer flex items-center justify-between">
+              Usuarios
+              <span class="text-xs">▼</span>
+            </div>
+            <div class="absolute left-0 top-full mt-1 w-full bg-white shadow-lg rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-10">
+              <div class="py-1">
+                <div class="px-4 py-2 hover:bg-gray-100">Usuarios</div>
+                <div class="px-4 py-2 hover:bg-gray-100">Permisos</div>
+                <div class="px-4 py-2 hover:bg-gray-100">Roles</div>
+              </div>
+            </div>
+          </div>
         </nav>
 
       </aside>
@@ -54,9 +130,9 @@ import "../../styles/global.css";
           </h1>
 
           <div class="flex gap-4 items-center">
-            🔔
-            👤
-            🖨️
+            <span class="text-2xl">🔔</span>
+            <span class="text-2xl">🖨️</span>
+            <span class="text-2xl">👤</span>
           </div>
 
         </header>
@@ -64,10 +140,10 @@ import "../../styles/global.css";
         <!-- MAIN -->
         <main class="flex-1 flex items-center justify-center p-6">
 
-          <div class="bg-white rounded-lg shadow p-6 w-full max-w-4xl text-center">
-            <img src="/Fondo2.png" class="mx-auto max-w-md opacity-90" />
+          <div class="bg-white rounded-lg shadow p-6 w-full max-w-full text-center">
+            <img src="/img/Fondo2.png" alt="Fondo2" class="mx-auto max-w-full h-auto opacity-90" />
             <p class="mt-4 text-gray-600">
-              Vista demostrativa del sistema (modo estático para portafolio)
+              Vista demostrativa del sistema (modo estático)
             </p>
           </div>
 
